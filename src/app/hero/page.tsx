@@ -12,14 +12,16 @@ export default function Hero() {
 			transition={{ duration: 0.7 }}
 			aria-label="Seção principal de destaque"
 		>
-			<div className="absolute inset-0 bg-gradient-to-t from-orange-500 via-transparent to-transparent"></div>
+			<div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent"></div>
 
 			<div className="relative">
-				<h1 className="text-4xl md:text-6xl font-bold mb-4">Personal Jesley Slayter</h1>
-				<p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
+				<h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow-lg/40">
+					Personal Jesley Slayter
+				</h1>
+				<p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto text-shadow-lg/30">
 					Faço você conquistar seu corpo tão sonhado em pouco tempo, com resultados definitivos e sem uso de
 					medicamentos.
-				</p>
+				</p> <br />
 				<BotaoWhatspp />
 			</div>
 		</motion.section>

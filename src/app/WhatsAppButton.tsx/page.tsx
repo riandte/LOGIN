@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import Wpplogo from '@/images/wpplogo.svg'
 
 export default function WhatsAppButton() {
 	return (
@@ -9,7 +11,10 @@ export default function WhatsAppButton() {
 			className="h-20 w-20 fixed bottom-4 right-4 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
 			aria-label="Falar no WhatsApp"
 		>
-			⓾⓾⓾ <br /> ⓾⓾⓾ <br />
+			<Image
+				src={Wpplogo}
+				alt='Whatsapp logo'
+			/>
 		</a>
 	);
 }
