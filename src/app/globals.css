@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 body {
-  
-  background-repeat: no-repeat;
-	background: black;
+	background-repeat: no-repeat;
+	background: red;
 	font-family: "Sora", sans-serif;
 }
