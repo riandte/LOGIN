@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import LoginPage from './(public)/Login/page';
+import LoginPage from './(public)/login/page';
 
 export default function Home() {
 	return (
